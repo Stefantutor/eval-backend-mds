@@ -18,9 +18,9 @@ Mail<input type="text" name="slbmail"/><br>
   <option value="Vue.js">Vue.js</option>
 </select><br>
 <label for="slbchoice">Options du projet : </label><br>
-<INPUT type="checkbox" name="slbform" value="1"> Formulaire de contact avancé<br>
-<INPUT type="checkbox" name="slbmob" value="2"> Adaptations mobile spécifiques<br>
-<INPUT type="checkbox" name="slbdes" value="3"> Design personnalisé<br>
+<INPUT type="checkbox" name="slbchoice[]" value="Formulaire de contact avancé"> Formulaire de contact avancé<br>
+<INPUT type="checkbox" name="slbchoice[]" value="Adaptations mobile spécifiques"> Adaptations mobile spécifiques<br>
+<INPUT type="checkbox" name="slbchoice[]" value="Design personnalisé"> Design personnalisé<br>
 <br>
 
 <input type="submit" name="slbvalider" value="send"/>
