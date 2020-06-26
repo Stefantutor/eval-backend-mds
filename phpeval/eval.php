@@ -12,6 +12,17 @@ Nom du prospect<input type="text" name="slbnom"/><br>
 Ville<input type="text" name="slbville"/><br>
 Téléphone<input type="text" name="slbtel"/><br>
 Mail<input type="text" name="slbmail"/><br>
+<label for="slbproj">Type de projet</label>
+<select name="slbproj" >
+  <option value="Wordpress">Wordpress</option>
+  <option value="Vue.js">Vue.js</option>
+</select><br>
+<label for="slbchoice">Options du projet : </label><br>
+<INPUT type="checkbox" name="slbform" value="1"> Formulaire de contact avancé<br>
+<INPUT type="checkbox" name="slbmob" value="2"> Adaptations mobile spécifiques<br>
+<INPUT type="checkbox" name="slbdes" value="3"> Design personnalisé<br>
+<br>
+
 <input type="submit" name="slbvalider" value="send"/>
 </form>
     
